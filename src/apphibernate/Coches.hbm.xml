@@ -18,7 +18,7 @@
             <column name="kilometros" />
         </property>
         <property name="matricula" type="java.lang.Integer">
-            <column name="`matricula`" />
+            <column name="`matricula" />
         </property>
     </class>
 </hibernate-mapping>

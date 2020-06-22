@@ -18,7 +18,7 @@ import org.hibernate.service.ServiceRegistry;
 
 /**
  *
- * @author cuvil
+ * @author anton
  */
 public class clienteControler {
     

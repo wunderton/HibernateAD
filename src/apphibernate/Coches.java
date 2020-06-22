@@ -12,17 +12,17 @@ public class Coches  implements java.io.Serializable {
      private Integer id;
      private String marca;
      private String modelo;
-     private Integer ano;
-     private Integer numeroBastidor;
+     private Integer kilometros;
+     private Integer matricula;
 
     public Coches() {
     }
 
-    public Coches(String marca, String modelo, Integer ano, Integer numeroBastidor) {
+    public Coches(String marca, String modelo, Integer kilometros, Integer matricula) {
        this.marca = marca;
        this.modelo = modelo;
-       this.ano = ano;
-       this.numeroBastidor = numeroBastidor;
+       this.kilometros = kilometros;
+       this.numeroBastidor = matricula;
     }
    
     public Integer getId() {
@@ -46,19 +46,19 @@ public class Coches  implements java.io.Serializable {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-    public Integer getAno() {
-        return this.ano;
+    public Integer getKilometros() {
+        return this.kilometros;
     }
     
-    public void setAno(Integer ano) {
-        this.ano = ano;
+    public void setKilometros(Integer kilometros) {
+        this.kilometros = kilometros;
     }
-    public Integer getNumeroBastidor() {
-        return this.numeroBastidor;
+    public Integer getMatricula() {
+        return this.matricula;
     }
     
-    public void setNumeroBastidor(Integer numeroBastidor) {
-        this.numeroBastidor = numeroBastidor;
+    public void setMatricula(Integer matricula) {
+        this.matricula = matricula;
     }
 
 
